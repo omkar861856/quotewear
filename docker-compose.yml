@@ -39,6 +39,9 @@ services:
     build:
       context: ./storefront
       dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_MEDUSA_BACKEND_URL=http://43.166.254.141:9000
+        - NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY=pk_fbb73c332f429bd57fd1beb9a5911fb18749d6083f4628e2e0b941eab32a41b5
     environment:
       # You will need to update this to the public URL of the backend
       - NEXT_PUBLIC_MEDUSA_BACKEND_URL=http://43.166.254.141:9000
