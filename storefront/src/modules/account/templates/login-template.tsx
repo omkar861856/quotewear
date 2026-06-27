@@ -39,7 +39,7 @@ const LoginTemplate = ({ regions }: { regions: HttpTypes.StoreRegion[] }) => {
 
   useEffect(() => {
     const image = new window.Image()
-    image.src = "/account-block.jpg"
+    image.src = "/account-block.png"
     image.onload = () => {
       setImageLoaded(true)
     }
@@ -62,7 +62,7 @@ const LoginTemplate = ({ regions }: { regions: HttpTypes.StoreRegion[] }) => {
 
       <div className="relative">
         <Image
-          src="/account-block.jpg"
+          src="/account-block.png"
           alt="Login banner background"
           className={clx(
             "object-cover transition-opacity duration-300 w-full h-full",

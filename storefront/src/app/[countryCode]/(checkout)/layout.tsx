@@ -12,9 +12,9 @@ export default function CheckoutLayout({
       <div className="h-16 bg-white">
         <nav className="flex h-full items-center content-container justify-between">
           <LocalizedClientLink className="hover:text-ui-fg-base" href="/">
-            <h1 className="text-base font-medium flex items-center">
+            <h1 className="text-base font-semibold flex items-center tracking-tight">
               <LogoIcon className="inline mr-2" />
-              Medusa B2B Starter
+              Quotewear
             </h1>
           </LocalizedClientLink>
         </nav>

@@ -26,9 +26,9 @@ export async function NavigationHeader() {
               className="hover:text-ui-fg-base flex items-center w-fit"
               href="/"
             >
-              <h1 className="small:text-base text-sm font-medium flex items-center">
+              <h1 className="small:text-base text-sm font-semibold flex items-center tracking-tight">
                 <LogoIcon className="inline mr-2" />
-                Medusa B2B Starter
+                Quotewear
               </h1>
             </LocalizedClientLink>
 
